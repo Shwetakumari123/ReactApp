@@ -6,12 +6,9 @@ function App() {
   return (
     <div>
       <h1>To Do</h1>
-      <ToDo text = 'Learn React'/>
-      <ToDo text = 'Master react'/>
-      <ToDo text = 'Explore the full react'/>
-      <Modal/>
-      <BackDrop/>
-      
+      <ToDo text="Learn React" />
+      <ToDo text="Master react" />
+      <ToDo text="Explore the full react" />
     </div>
   );
 }

@@ -1,5 +1,7 @@
-function BackDrop(){
-    <div className='backdrop'/>
+export function BackDrop(props){
+    const{onClickFunction} = props
+    return(
+    <div className='backdrop' onClick={onClickFunction}/>
+    )
 }
 
-export default BackDrop
